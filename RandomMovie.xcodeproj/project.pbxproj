@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9BC401912EE84E1100B7FA42 /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC401902EE84E1100B7FA42 /* Intro.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		9B5C3C3C2ECCD6BE006DF47E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		9B5C3C2E2ECCD6BC006DF47E /* RandomMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5C3C3B2ECCD6BE006DF47E /* RandomMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5C3C452ECCD6BE006DF47E /* RandomMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC401902EE84E1100B7FA42 /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		9B5C3C252ECCD6BC006DF47E = {
 			isa = PBXGroup;
 			children = (
+				9BC401902EE84E1100B7FA42 /* Intro.swift */,
 				9B5C3C302ECCD6BC006DF47E /* RandomMovie */,
 				9B5C3C3E2ECCD6BE006DF47E /* RandomMovieTests */,
 				9B5C3C482ECCD6BE006DF47E /* RandomMovieUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC401912EE84E1100B7FA42 /* Intro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
